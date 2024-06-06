@@ -1,0 +1,21 @@
+<!-- login.component.html -->
+<div class="login-container">
+  <h2>Registro al sistema</h2> <!-- Título -->
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="login-form">
+    <mat-form-field>
+      <mat-icon matPrefix>account_circle</mat-icon>
+      <input matInput formControlName="username">
+    </mat-form-field>
+    <mat-form-field>
+      <!-- Cambiado el icono a 'email' -->
+      <mat-icon matPrefix>email</mat-icon>
+      <input matInput formControlName="email">
+    </mat-form-field>
+    <mat-form-field>
+      <mat-icon matPrefix>lock</mat-icon>
+      <input matInput type="password" formControlName="password">
+    </mat-form-field>
+    <button mat-button type="submit">Guardar</button>
+    <!-- Agrega el evento de clic -->
+  </form>
+</div>

@@ -1,0 +1,31 @@
+/* login.component.css */
+.login-container {
+  display: flex;
+  flex-direction: column; /* Cambia el diseño a columna */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;     /* Centra horizontalmente */
+  height: 100vh;           /* Altura de la pantalla completa */
+  background-color: #f0f0f0; /* Color de fondo más oscuro que el blanco */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espacio entre los campos de formulario */
+  width: 400px; /* Ancho fijo del formulario */
+  padding: 30px; /* Padding mayor */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.register-button {
+  margin-top: 10px; /* Espacio superior */
+  /* Agrega cualquier otro estilo deseado para el botón de registro */
+}
+
+/* Estilo para los inputs de Material */
+.mat-form-field {
+  border: 1px solid #ccc; /* Agregar borde a los inputs */
+  border-radius: 4px; /* Agregar bordes redondeados */
+}
